@@ -1,0 +1,67 @@
+.trove__logo {
+    width: 100px;
+    margin-left: 30px ;
+}
+.trove__navbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-top: 20px;
+    
+}
+
+.trove__navbar a {
+   text-decoration: none;
+    
+}
+
+.trove__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.trove__navbar-sign p a  {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.trove__nav-top{
+    height: 90px;
+    background-color:#000;
+}
+.trove__nav-inner{
+    color: white;
+    
+}
+
+.trove__signup {
+    padding: 0.5rem 0.5rem;
+    color: #fff;
+    background: #FF4820;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.trove__navbar-sign a {
+    color: #FFF;
+}
+
+
+
+
+
