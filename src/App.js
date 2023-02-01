@@ -26,8 +26,9 @@ export default function App () {
                     <Route path="/top100" element={<Top100/>}></Route>
                     <Route path="/login"  element= {<Login/>}></Route>
                     <Route path="/signup"  element= {<Signup/>}></Route>
+                    
                 </Routes> 
-                <hr></hr>
+                
               </div>
             <MusicBar/>
           </BrowserRouter>

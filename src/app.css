@@ -14,28 +14,42 @@
    justify-items: center;
 }
 
-.trove__music-slide-wrap h1{
-    text-align: left;
+body{
+     /* ff 3.6+ */
+     background:-moz-radial-gradient(ellipse at 50% 50%, rgba(12, 8, 28, 1) 0%, rgba(8, 12, 61, 1) 100%);
+
+     /* safari 5.1+,chrome 10+ */
+     background:-webkit-radial-gradient(ellipse at 50% 50%, rgba(12, 8, 28, 1) 0%, rgba(8, 12, 61, 1) 100%);
+ 
+     /* opera 11.10+ */
+     background:-o-radial-gradient(ellipse at 50% 50%, rgba(12, 8, 28, 1) 0%, rgba(8, 12, 61, 1) 100%);
+ 
+     /* ie 10+ */
+     background:-ms-radial-gradient(ellipse at 50% 50%, rgba(12, 8, 28, 1) 0%, rgba(8, 12, 61, 1) 100%);
+ 
+     /* global 92%+ browsers support */
+     background:radial-gradient(ellipse at 50% 50%, rgba(12, 8, 28, 1) 0%, rgba(8, 12, 61, 1) 100%);
+    
+    
 }
 
-.trove__music-slide{
-    text-align: left;
-    margin-top: 30px;
-   
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-.trove__music-slide>* {
-    flex: 0 1 176px;
-}
+.just-save-this-color{
+    background:-moz-radial-gradient(ellipse at 100% 550%, rgba(0, 52, 196, 1) 0%, rgba(137, 81, 246, 1) 100%);
 
-@media  screen and (max-width:1700px)
-{
-    .trove__music-slide{
-        margin-left: 100px;
-    }
-    .trove__home h1{
-        margin-left: 100px;
-    }
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(ellipse at 100% 550%, rgba(0, 52, 196, 1) 0%, rgba(137, 81, 246, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(ellipse at 100% 550%, rgba(0, 52, 196, 1) 0%, rgba(137, 81, 246, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(ellipse at 100% 550%, rgba(0, 52, 196, 1) 0%, rgba(137, 81, 246, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(ellipse at 100% 550%, rgba(0, 52, 196, 1) 0%, rgba(137, 81, 246, 1) 100%);
 }
+           
+  
+
+
+

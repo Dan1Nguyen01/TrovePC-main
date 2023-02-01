@@ -1,5 +1,5 @@
 .trove__mp{
-    background-color: #1a1a1a;
+    background-color: #271672;
     overflow: hidden;
     position: fixed;
     bottom: 0;
@@ -9,6 +9,9 @@
     display: flex;
    
     align-items: center;
+}
+.trove_mp:hover{
+
 }
 
 .trove__mp_song{
