@@ -1,10 +1,7 @@
 
   .trove__sb-container{
-    display:flex;
-    float:  left;
-    position: fixed;
-   
-    
+    display: flex;
+
   }
 
   main{
@@ -12,17 +9,18 @@
     
   }
   .trove__sidebar{
-     
-     background-color: #271672  ;
-;
-    
+    background:#271672;
+    color: #fff;
     height: 100vh;
     transition: all 0.5s;
+    position: fixed;
+    float: left;
+    width:10% ;
   }
   .trove__sb-top_section{
     display: flex;
     align-items:center;
-    padding:20px 15px;
+    padding:10px 8px;
   }
   .trove__logo{
     font-size: 30px;
@@ -56,8 +54,7 @@
 @media  screen and (max-width:1150px) {
     .trove__sidebar{
       width: 50px;
-      position: fixed;
-      height: 100vh;
+     
     }
 
     .trove__sb-link_text{
@@ -67,6 +64,10 @@
       display: none;
     }
     
+}
+
+@media screen and(max-width:480px) {
+  
 }
 
 

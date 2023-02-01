@@ -15,27 +15,19 @@ const Home = () => {
 
   
   return (
-    <div className='trove__home'>
-     
-      <h1>Hardcore</h1>
-      <div className='trove__music-slide' style={{textAlign:'center', marginBottom:'80px' }} >
+  <>
+  <div className="div">
+  <h1>Focus</h1>
+  </div>
+  < div className='trove__home'>
+      
      {songElements}
-     </div>
-    
 
-    <h1>Hardcore</h1>
-    <div className='trove__music-slide' style={{textAlign:'center', marginBottom:'80px' }} >
-     {songElements}
-    
-    </div> 
-
-    <h1>Hardcore</h1>
-    <div className='trove__music-slide' style={{textAlign:'center', marginBottom:'80px' }} >
-     {songElements}
-    
-    </div> 
     </div>
+  </>
     
+         
+
   )
 }
 

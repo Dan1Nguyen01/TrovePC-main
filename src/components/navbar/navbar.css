@@ -35,8 +35,8 @@
 }
 
 .trove__nav-top{
-background-color: #39268f  ;
-   
+    height: 90px;
+    background-color:transparent;
 }
 .trove__nav-inner{
     color: white;

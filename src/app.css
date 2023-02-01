@@ -8,48 +8,32 @@
 }
 
 .trove__website{
-   width: 90%;
-   float: right;
-   text-align: left;
-   justify-items: center;
+    width: 90%;
+    float: right;
+    
 }
+
 
 body{
-     /* ff 3.6+ */
-     background:-moz-radial-gradient(ellipse at 50% 50%, rgba(12, 8, 28, 1) 0%, rgba(8, 12, 61, 1) 100%);
 
-     /* safari 5.1+,chrome 10+ */
-     background:-webkit-radial-gradient(ellipse at 50% 50%, rgba(12, 8, 28, 1) 0%, rgba(8, 12, 61, 1) 100%);
- 
-     /* opera 11.10+ */
-     background:-o-radial-gradient(ellipse at 50% 50%, rgba(12, 8, 28, 1) 0%, rgba(8, 12, 61, 1) 100%);
- 
-     /* ie 10+ */
-     background:-ms-radial-gradient(ellipse at 50% 50%, rgba(12, 8, 28, 1) 0%, rgba(8, 12, 61, 1) 100%);
- 
-     /* global 92%+ browsers support */
-     background:radial-gradient(ellipse at 50% 50%, rgba(12, 8, 28, 1) 0%, rgba(8, 12, 61, 1) 100%);
-    
-    
-}
-
-.just-save-this-color{
-    background:-moz-radial-gradient(ellipse at 100% 550%, rgba(0, 52, 196, 1) 0%, rgba(137, 81, 246, 1) 100%);
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(90deg, rgba(12, 8, 28, 1) 0%, rgba(8, 12, 61, 1) 100%); 
 
     /* safari 5.1+,chrome 10+ */
-    background:-webkit-radial-gradient(ellipse at 100% 550%, rgba(0, 52, 196, 1) 0%, rgba(137, 81, 246, 1) 100%);
+    background:-webkit-linear-gradient(90deg, rgba(12, 8, 28, 1) 0%, rgba(8, 12, 61, 1) 100%);
 
     /* opera 11.10+ */
-    background:-o-radial-gradient(ellipse at 100% 550%, rgba(0, 52, 196, 1) 0%, rgba(137, 81, 246, 1) 100%);
+    background:-o-linear-gradient(90deg, rgba(12, 8, 28, 1) 0%, rgba(8, 12, 61, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#080C3D', endColorstr='#0C081C', GradientType=0 );
 
     /* ie 10+ */
-    background:-ms-radial-gradient(ellipse at 100% 550%, rgba(0, 52, 196, 1) 0%, rgba(137, 81, 246, 1) 100%);
+    background:-ms-linear-gradient(90deg, rgba(12, 8, 28, 1) 0%, rgba(8, 12, 61, 1) 100%);
 
-    /* global 92%+ browsers support */
-    background:radial-gradient(ellipse at 100% 550%, rgba(0, 52, 196, 1) 0%, rgba(137, 81, 246, 1) 100%);
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(12, 8, 28, 1) 0%, rgba(8, 12, 61, 1) 100%);
+
 }
-           
-  
 
-
-
+ 
