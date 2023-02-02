@@ -2,12 +2,12 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import axios from 'axios';
 import { Header,Footer } from "./containers/Index";
-import { Download,Home,MyPlayList,Stream,Top100,Login, Signup,MusicBar,Sidebar } from "./components/index.js";
+import { Upload,Home,MyPlayList,Stream,Top100,Login, Signup,MusicBar,Sidebar, Admin, Search } from "./components/index.js";
 import "bootstrap/dist/css/bootstrap.min.css"
 import './app.css'
 
 
-const code = new URLSearchParams(window.location.search).get('code')
+
 export default function App () {
 
     return(
@@ -26,6 +26,9 @@ export default function App () {
                     <Route path="/top100" element={<Top100/>}></Route>
                     <Route path="/login"  element= {<Login/>}></Route>
                     <Route path="/signup"  element= {<Signup/>}></Route>
+                    <Route path='/search' element = {<Search/>}></Route>
+                    <Route path='/upload' element = {<Upload/>}></Route>
+                    <Route path='/admin' element = {<Admin/>}></Route>
                 </Routes> 
               </div>
             <MusicBar/>

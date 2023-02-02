@@ -6,7 +6,7 @@ const MusicBar = () => {
     <div className='trove__mp '>
        <img src={sample} className='trove__mp_img'/>
         < div className='trove__mp_song'>
-          <h7>Song Title</h7>
+          <h6>Song Title</h6>
           <p>Artist</p>
         </div>
 

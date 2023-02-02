@@ -16,6 +16,18 @@ const Sidebar = ({children}) => {
             path:"/",
             name:"Home",
             icon:<FaHome/>
+        }
+        ,
+        {
+            path:'/search',
+            name:'Search',
+            icon:<FaSearch/>
+        },
+        
+        {
+            path:"/myplaylist",
+            name:"My Trove",
+            icon:<FaMusic/>
         },
         {
             path:"/stream",
@@ -23,15 +35,15 @@ const Sidebar = ({children}) => {
             icon:<CiStreamOn/>
         },
         {
-            path:"/myplaylist",
-            name:"My Trove",
-            icon:<FaMusic/>
-        },
-        {
             path:"/top100",
             name:"Top 100",
             icon:<FaRegStar/>
         },
+        {
+            path:"/upload",
+            name:"Upload Music",
+            icon:<FaCloudUploadAlt/>
+        }
 
         
     ]
