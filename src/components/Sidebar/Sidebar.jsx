@@ -5,7 +5,7 @@ import {
 import {CiStreamOn} from 'react-icons/ci'
 import { Link } from 'react-router-dom';
 import './sidebar.css';
-import img from '../../imgs/testing.jpg'
+
 
 
 const Sidebar = ({children}) => {
@@ -40,7 +40,7 @@ const Sidebar = ({children}) => {
 
     useEffect(()=>{
         window.addEventListener('resize',()=>{
-            setShowLogo(window.innerWidth>480);
+            setShowLogo(window.innerWidth>=1100);
         })
     },[])
 
@@ -49,8 +49,8 @@ const Sidebar = ({children}) => {
         <div className="trove__sb-container">
            <div className="trove__sidebar">
                <div className="trove__sb-top_section">
-                <h1 className="trove__logo"> Trove</h1>
-                    {/* {showLogo ? <h1  className="trove__logo">Trove </h1> :<img src={img} width='75px' alt="" />} */}
+                    {showLogo ?  
+                    <img src="./trove/trovelogo.png" width='100%' alt="" /> :<img src="./trove/troveIcon.png" width='100%' alt="" />}
 
                </div>
                {
