@@ -2,20 +2,17 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
-.div{
-    margin-left: 50px;
-    
-}
-
-
-@media  screen and (max-width:900px) {
-.div{
-    text-align: center;
-}
-    
+.div h1 {
+   margin-left: 50px;
 }
 
 
+@media screen and(max-width:1300) {
+    .div h1 {
+        margin-left: 100px;
+     }
+}
 

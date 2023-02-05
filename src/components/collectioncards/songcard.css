@@ -7,7 +7,6 @@
 .trove__scard{
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 2rem 2rem 2rem 2rem;
     padding: 0.5rem;
     width: 150px;

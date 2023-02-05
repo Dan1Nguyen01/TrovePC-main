@@ -20,9 +20,29 @@ const Home = () => {
   <h1>Focus</h1>
   </div>
   < div className='trove__home'>
-      
-     {songElements}
+        {songElements}
 
+    </div>
+
+
+  <div className="div">
+    <h1>Focus</h1>
+  </div>
+    < div className='trove__home'>
+        {songElements}
+    </div>
+
+    <div className="div">
+    <h1>Focus</h1>
+  </div>
+    < div className='trove__home'>
+        {songElements}
+    </div>
+    <div className="div">
+    <h1>Focus</h1>
+  </div>
+    < div className='trove__home'>
+        {songElements}
     </div>
   </>
     
