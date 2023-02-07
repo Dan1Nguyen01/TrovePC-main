@@ -1,22 +1,19 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import axios from 'axios';
-import { Header,Footer } from "./containers/Index";
-import { Upload,Home,MyPlayList,Stream,Top100,Login, Signup,MusicBar,Sidebar, Admin, Search } from "./components/index.js";
-import "bootstrap/dist/css/bootstrap.min.css"
-import './app.css'
-
-
+import {Header} from "./containers/index";
+import {MusicBar,Sidebar } from "./components/index.js";
+import { Upload,Home,MyPlayList,Stream,Top100,Login, Signup, Admin, Search} from './pages'
+import {User, Song, Artist,Album,Playlist,Collection,TasteProfile,} from './components/admin/index';
+import "bootstrap/dist/css/bootstrap.min.css";
+import './app.css';
 
 export default function App () {
 
     return(
- 
-      <div className="gradient__bg">
       
-          
       <BrowserRouter>      
             <Sidebar/>
+            
             <Header />
                 <div className='trove__website'>
                   <Routes  >
@@ -24,17 +21,28 @@ export default function App () {
                     <Route path='/stream' element={<Stream />}></Route>
                     <Route path="/myplaylist" element={<MyPlayList/>}></Route>
                     <Route path="/top100" element={<Top100/>}></Route>
-                    <Route path="/login"  element= {<Login/>}></Route>
-                    <Route path="/signup"  element= {<Signup/>}></Route>
                     <Route path='/search' element = {<Search/>}></Route>
                     <Route path='/upload' element = {<Upload/>}></Route>
+
+                    
+                    <Route path="/login"  element= {<Login/>}></Route>
+                    <Route path="/signup"  element= {<Signup/>}></Route>
+                   
+
+                    //admin site
                     <Route path='/admin' element = {<Admin/>}></Route>
+                    <Route path='/admin/user-management' element = {<User/>}></Route>
+                    <Route path='/admin/album-management' element = {<Album/>}></Route>
+                    <Route path='/admin/artist-management' element = {<Artist/>}></Route>
+                    <Route path='/admin/collection-management' element = {<Collection/>}></Route>
+                    <Route path='/admin/song-management' element = {<Song/>}></Route>
+                    <Route path='/admin/playlist-management' element = {<Playlist/>}></Route>
+                    <Route path='/admin/tastep-management' element = {<TasteProfile/>}></Route>
                 </Routes> 
-              </div>
+              </div>      
             <MusicBar/>
           </BrowserRouter>
-      </div>
-   
+     
       
     )
   }

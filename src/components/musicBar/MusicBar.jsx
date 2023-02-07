@@ -2,7 +2,11 @@ import React from 'react'
 import './musicbar.css'
 import sample from '../../imgs/logo.png'
 const MusicBar = () => {
+  const [isPlaying,setIsPlaying] = React.useState(false);
+
   return (
+    <>
+
     <div className='trove__mp '>
        <img src={sample} className='trove__mp_img'/>
         < div className='trove__mp_song'>
@@ -19,6 +23,8 @@ const MusicBar = () => {
         </div>
 
      </div>
+
+     </>
   )
 }
 
